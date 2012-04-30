@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2012-04-30T16:43:35.555">
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/providers/aws-s3/src/main/java/org/jclouds/aws/s3/AWSS3AsyncClient.java">
+<violation beginline="25" endline="25" begincolumn="1" endcolumn="66" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.aws.s3" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.aws.s3.blobstore.options.AWSS3PutObjectOptions'
+</violation>
+<violation beginline="58" endline="58" begincolumn="1" endcolumn="60" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.aws.s3" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.s3.binders.BindS3ObjectMetadataToRequest'
+</violation>
+<violation beginline="60" endline="60" begincolumn="1" endcolumn="38" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.aws.s3" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.s3.domain.S3Object'
+</violation>
+<violation beginline="63" endline="63" begincolumn="1" endcolumn="42" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.aws.s3" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.s3.functions.ObjectKey'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/providers/aws-s3/src/main/java/org/jclouds/aws/s3/AWSS3Client.java">
+<violation beginline="24" endline="24" begincolumn="1" endcolumn="66" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.aws.s3" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.aws.s3.blobstore.options.AWSS3PutObjectOptions'
+</violation>
+<violation beginline="29" endline="29" begincolumn="1" endcolumn="38" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.aws.s3" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.s3.domain.S3Object'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/providers/aws-s3/src/main/java/org/jclouds/aws/s3/AWSS3PropertiesBuilder.java">
+<violation beginline="19" endline="67" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.aws.s3" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/providers/aws-s3/src/main/java/org/jclouds/aws/s3/blobstore/AWSS3AsyncBlobStore.java">
+<violation beginline="44" endline="44" begincolumn="1" endcolumn="31" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.aws.s3.blobstore" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.s3.S3Client'
+</violation>
+<violation beginline="113" endline="115" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.aws.s3.blobstore" class="AWSS3AsyncBlobStore" method="putBlobWithReducedRedundancy" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/providers/aws-s3/src/main/java/org/jclouds/aws/s3/blobstore/AWSS3BlobStore.java">
+<violation beginline="53" endline="53" begincolumn="1" endcolumn="47" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.aws.s3.blobstore" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.s3.options.PutObjectOptions'
+</violation>
+<violation beginline="109" endline="111" begincolumn="9" endcolumn="7" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.aws.s3.blobstore" class="AWSS3BlobStore" method="putBlobWithReducedRedundancy" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/providers/aws-s3/src/main/java/org/jclouds/aws/s3/blobstore/config/AWSS3BlobStoreContextModule.java">
+<violation beginline="31" endline="31" begincolumn="1" endcolumn="48" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.aws.s3.blobstore.config" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.blobstore.options.PutOptions'
+</violation>
+</file>
+</pmd>
