@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2012-04-30T14:42:06.035">
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/apis/cloudstack/src/main/java/org/jclouds/cloudstack/CloudStackGlobalAsyncClient.java">
+<violation beginline="25" endline="25" begincolumn="1" endcolumn="65" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.cloudstack.features.GlobalConfigurationClient'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/apis/cloudstack/src/main/java/org/jclouds/cloudstack/compute/config/CloudStackComputeServiceContextModule.java">
+<violation beginline="70" endline="70" begincolumn="1" endcolumn="50" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.compute.config" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.rest.ResourceNotFoundException'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/apis/cloudstack/src/main/java/org/jclouds/cloudstack/compute/functions/VirtualMachineToNodeMetadata.java">
+<violation beginline="19" endline="214" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.compute.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="28" endline="28" begincolumn="1" endcolumn="46" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.compute.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.collect.ImmutableSet'
+</violation>
+<violation beginline="30" endline="30" begincolumn="1" endcolumn="38" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.compute.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.collect.Sets'
+</violation>
+<violation beginline="46" endline="46" begincolumn="1" endcolumn="39" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.compute.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.util.InetAddresses2'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/apis/cloudstack/src/main/java/org/jclouds/cloudstack/compute/strategy/AdvancedNetworkOptionsConverter.java">
+<violation beginline="19" endline="59" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/apis/cloudstack/src/main/java/org/jclouds/cloudstack/compute/strategy/CloudStackComputeServiceAdapter.java">
+<violation beginline="19" endline="340" begincolumn="1" endcolumn="1" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/apis/cloudstack/src/main/java/org/jclouds/cloudstack/compute/strategy/OptionsConverter.java">
+<violation beginline="19" endline="54" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+<violation beginline="21" endline="21" begincolumn="1" endcolumn="43" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.collect.Iterables'
+</violation>
+<violation beginline="28" endline="28" begincolumn="1" endcolumn="65" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.base.Preconditions.checkArgument'
+</violation>
+<violation beginline="29" endline="29" begincolumn="1" endcolumn="52" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.base.Predicates.and'
+</violation>
+<violation beginline="30" endline="30" begincolumn="1" endcolumn="57" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.collect.Iterables.filter'
+</violation>
+<violation beginline="31" endline="31" begincolumn="1" endcolumn="87" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.cloudstack.predicates.NetworkPredicates.defaultNetworkInZone'
+</violation>
+<violation beginline="32" endline="32" begincolumn="1" endcolumn="84" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.compute.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.cloudstack.predicates.NetworkPredicates.supportsStaticNAT'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/apis/cloudstack/src/main/java/org/jclouds/cloudstack/domain/FirewallRule.java">
+<violation beginline="24" endline="24" begincolumn="1" endcolumn="42" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.domain" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.omg.PortableInterceptor.ACTIVE'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/apis/cloudstack/src/main/java/org/jclouds/cloudstack/domain/ISOPermissions.java">
+<violation beginline="37" endline="37" begincolumn="22" endcolumn="28" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="org.jclouds.cloudstack.domain" class="ISOPermissions$Builder" variable="account" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'account'.
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/apis/cloudstack/src/main/java/org/jclouds/cloudstack/domain/ServiceOffering.java">
+<violation beginline="190" endline="206" begincolumn="11" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.cloudstack.domain" class="ServiceOffering" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'cpuUseLimited'.
+</violation>
+<violation beginline="190" endline="206" begincolumn="11" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.cloudstack.domain" class="ServiceOffering" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'defaultUse'.
+</violation>
+<violation beginline="190" endline="206" begincolumn="11" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.cloudstack.domain" class="ServiceOffering" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'hostTags'.
+</violation>
+<violation beginline="190" endline="206" begincolumn="11" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.cloudstack.domain" class="ServiceOffering" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'networkRate'.
+</violation>
+<violation beginline="190" endline="206" begincolumn="11" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.cloudstack.domain" class="ServiceOffering" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'systemOffering'.
+</violation>
+<violation beginline="190" endline="206" begincolumn="11" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.cloudstack.domain" class="ServiceOffering" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'systemVmType'.
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/apis/cloudstack/src/main/java/org/jclouds/cloudstack/features/GlobalConfigurationAsyncClient.java">
+<violation beginline="26" endline="26" begincolumn="1" endcolumn="48" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.features" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.rest.annotations.OnlyElement'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/apis/cloudstack/src/main/java/org/jclouds/cloudstack/functions/ParseEventTypesFromHttpResponse.java">
+<violation beginline="46" endline="46" begincolumn="18" endcolumn="27" rule="OverrideBothEqualsAndHashcode" ruleset="Basic Rules" package="org.jclouds.cloudstack.functions" class="ParseEventTypesFromHttpResponse$EventType" method="hashCode" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#OverrideBothEqualsAndHashcode" priority="3">
+Ensure you override both equals() and hashCode()
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/apis/cloudstack/src/main/java/org/jclouds/cloudstack/functions/ReuseOrAssociateNewPublicIPAddress.java">
+<violation beginline="19" endline="107" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.functions" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/apis/cloudstack/src/main/java/org/jclouds/cloudstack/functions/StaticNATVirtualMachineInNetwork.java">
+<violation beginline="77" endline="79" begincolumn="12" endcolumn="10" rule="EmptyCatchBlock" ruleset="Basic Rules" package="org.jclouds.cloudstack.functions" class="StaticNATVirtualMachineInNetwork" method="apply" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/apis/cloudstack/src/main/java/org/jclouds/cloudstack/options/CreateDomainOptions.java">
+<violation beginline="21" endline="21" begincolumn="1" endcolumn="37" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.options" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.base.Joiner'
+</violation>
+<violation beginline="25" endline="25" begincolumn="1" endcolumn="21" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.options" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.Set'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/apis/cloudstack/src/main/java/org/jclouds/cloudstack/options/UpdateLoadBalancerRuleOptions.java">
+<violation beginline="21" endline="21" begincolumn="1" endcolumn="37" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.options" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'com.google.common.base.Joiner'
+</violation>
+<violation beginline="26" endline="26" begincolumn="1" endcolumn="21" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.options" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.Set'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/apis/cloudstack/src/main/java/org/jclouds/cloudstack/options/UpdatePodOptions.java">
+<violation beginline="25" endline="25" begincolumn="1" endcolumn="45" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.options" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'javax.annotation.concurrent.Immutable'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/apis/cloudstack/src/main/java/org/jclouds/cloudstack/strategy/BlockUntilJobCompletesAndReturnResult.java">
+<violation beginline="24" endline="24" begincolumn="1" endcolumn="47" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.cloudstack.strategy" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.concurrent.ExecutionException'
+</violation>
+</file>
+</pmd>
