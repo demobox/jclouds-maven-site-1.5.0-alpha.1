@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2012-04-30T14:15:33.925">
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/apis/nova/src/main/java/org/jclouds/openstack/nova/NovaClient.java">
+<violation beginline="37" endline="37" begincolumn="1" endcolumn="50" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.nova" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.rest.ResourceNotFoundException'
+</violation>
+</file>
+<file name="/scratch/hudson/workspace/jclouds-maven-site-1.5.0-alpha.1-deploy/apis/nova/src/main/java/org/jclouds/openstack/nova/config/NovaRestClientModule.java">
+<violation beginline="26" endline="26" begincolumn="1" endcolumn="41" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.nova.config" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.http.HttpRetryHandler'
+</violation>
+<violation beginline="35" endline="35" begincolumn="1" endcolumn="51" rule="UnusedImports" ruleset="Import Statement Rules" package="org.jclouds.openstack.nova.config" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'org.jclouds.openstack.handlers.RetryOnRenew'
+</violation>
+</file>
+</pmd>
